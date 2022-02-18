@@ -8,6 +8,7 @@ catkin_package()
 
 install(PROGRAMS
   scripts/mqtt_bridge_node.py
+  scripts/mqtt_handler.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
